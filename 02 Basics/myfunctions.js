@@ -17,3 +17,8 @@ var loginUser = function (email, password, name) {
     if (name === void 0) { name = "abhishek"; }
 };
 loginUser("abhishek@gmail.com", "12345678");
+// add a specfic data types of return
+function getName(name) {
+    return name;
+}
+getName("Hello, abhihsek 👋");
